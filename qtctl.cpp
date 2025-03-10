@@ -36,6 +36,7 @@
 #include <unistd.h>
 #include <QuickTrace/MessageParser.h>
 #include <QuickTrace/QuickTrace.h>
+#include <memory>
 
 // qtctl modifies a QuickTrace trace file to enable or disable
 // messages "on the fly".  It can also be used to show which messages
